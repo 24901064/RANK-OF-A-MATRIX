@@ -5,17 +5,11 @@ To write a python program to find the rank of a matrix
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-1. Convert the input matrix to a NumPy array with float data type.
-
-2. Initialize rank = 0 and get the number of rows and columns of the matrix.
-
-3. For each row i, if A[i, i] is zero, swap rows to place a non-zero element in the diagonal position.
-
-4. If A[i, i] is non-zero, normalize row i by dividing it by A[i, i].
-
-5. For each row j below row i, eliminate the element below the pivot by subtracting a multiple of row i from row j.
-
-6. Count the number of non-zero rows in the resulting matrix and return the rank. 
+1. Start
+2. import the numpy library to handle matrix operations
+3. define the matrix with the given elements:
+4. print the rank
+5. end
 ## Program:
 import numpy as np
 
